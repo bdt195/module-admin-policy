@@ -1,0 +1,20 @@
+{
+    "name": "tonyb/module-admin-policy",
+    "description": "Add custom policy for admin password",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "require": {
+        "php": "~7.3.0||~7.4.0"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TonyB\\AdminPolicy\\": ""
+        }
+    }
+}
